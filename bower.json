@@ -1,7 +1,0 @@
-{
-  "name": "React Clock",
-  "dependencies": {
-    "react": "~15.0"
-  },
-  "devDependencies": {}
-}

@@ -1,0 +1,25 @@
+{
+  "name": "clock-react",
+  "version": "0.0.1",
+  "description": "A simple proof of concept and experiment using React DOM to implement a digital clock",
+  "main": "index.js",
+  "dependencies": {
+    "browserify": "~13.0.1",
+    "react": "~15.0.2",
+    "react-dom": "~15.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "make postinstall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeinabox/react-clock.git"
+  },
+  "author": "Mathew Attlee <hello@codeinabox.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeinabox/react-clock/issues"
+  },
+  "homepage": "https://github.com/codeinabox/react-clock#readme"
+}
