@@ -1,14 +1,12 @@
 (function() {
   "use strict";
 
-  var React = require('react');
   var ReactDOM = require('react-dom');
-  var Clock = require('./components/clock');
+  var main = require('./main');
 
   function renderClock(updateInterval, elementId) {
-
     var element = ReactDOM.render(
-      React.createElement(Clock),
+      main.createClockWithCurrentTime(),
       document.getElementById(elementId)
     );
 

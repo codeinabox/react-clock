@@ -4,11 +4,15 @@ var React = require('react');
 
 var Clock = React.createClass({
   getInitialState : function() {
-    return {
-      hour : null,
-      minutes  : null,
-      second: null
-    };
+    var initialState = { hour: null, minutes: null, seconds: null }
+
+    if (this.props.date && this.props.date instanceof Date) {
+      initialState.hour = this.props.date.getHours();
+      initialState.minutes = this.props.date.getMinutes();
+      initialState.seconds = this.props.date.getSeconds();
+    }
+
+    return initialState;
   },
 
   updateDate: function(dateNow) {

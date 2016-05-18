@@ -1,5 +1,5 @@
 # React Clock
-A simple proof of concept and experiment using React DOM to implement a digital clock
+A simple proof of concept and experiment using React to implement a digital clock that has "isomorphic" rendering on both client and server side
 
 ## Instructions
-Assuming you have [NPM](https://docs.npmjs.com/cli/install) installed run `npm install` and then start an HTTP server in the public directory
+Assuming you have [NPM](https://docs.npmjs.com/cli/install) installed run `npm install` and then start the HTTP server by running `npm start`
