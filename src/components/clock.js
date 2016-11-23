@@ -37,4 +37,8 @@ var Clock = React.createClass({
   }
 });
 
+Clock.propTypes = {
+  date: React.PropTypes.object.isRequired
+};
+
 module.exports = Clock;
